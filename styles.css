@@ -23,6 +23,7 @@
     padding-left: 50px;
     text-decoration: none;
     color: grey;
+    font-family: 'Roboto', sans-serif;
 }
 
 #navbar a:hover {
@@ -33,9 +34,8 @@
     float: left;
     font-size: 40px;
     margin-left: 5%;
+    font-family: 'Roboto', sans-serif;
 }
-
-
 
 .hero {
     width: 100vw;
@@ -53,10 +53,11 @@
 }
 
 .hero h1 {
-    font-size: 100px;
+    font-size: 125px;
     color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px goldenrod, 0 0 8px goldenrod;
+    font-family: 'Roboto', sans-serif;
 }
-
 
 .flexbox-container {
     margin-top: 125px;
@@ -84,7 +85,6 @@
 }
 
 .flexbox-item-1 p {
-   
     margin-left: 60px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -96,25 +96,21 @@
 .flexbox-item-2 {
     display: flex;
     align-items: center;
-    
 }
 
 .flexbox-item-3 {
     display: flex;
     align-items: center;
-    
 }
 
 .flexbox-item-4 {
     display: flex;
     align-items: center;
-   
 }
 
 .flexbox-item-5 {
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .flexbox-container-footer {
@@ -129,20 +125,30 @@
 .fb-item {
     width:100%;
     margin: 10px;
-    
 }
 
-.fb-item2 h1{
+.fb-item2 h1 {
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
     color: white;
-    margin-left: 60px;
+    margin-left: 68px;
+    text-shadow: 1px 1px 2px black, 0 0 25px goldenrod, 0 0 8px goldenrod;
 }
 
 .fb-item2 ul {
     color: white;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fb-item2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.fb-item2 a:hover {
+    color: goldenrod
 }
 
 .fb-item2 li {
@@ -164,40 +170,61 @@
     font-size: 30px;
 }
 
-.fb-item3 h1{
+.fb-item3 h1 {
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
     color: white;
-    margin-left: 60px;
+    margin-left: 68px;
+    text-shadow: 1px 1px 2px black, 0 0 25px goldenrod, 0 0 8px goldenrod;
 }
 
 .fb-item3 ul {
     color: white;
     list-style-type: none;
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .fb-item3 li {
     padding: 30px;
 }
 
-.fb-item4 h1{
+.fb-item3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.fb-item3 a:hover {
+    color: goldenrod;
+}
+
+.fb-item4 h1 {
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
     color: white;
-    margin-left: 60px;
+    margin-left: 68px;
+    text-shadow: 1px 1px 2px black, 0 0 25px goldenrod, 0 0 8px goldenrod;
 }
 
 .fb-item4 ul {
     color: white;
     list-style-type: none;
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .fb-item4 li {
     padding: 30px;
 }
 
+.fb-item4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.fb-item4 a:hover {
+    color: goldenrod;
+}
 
 .image {
     max-width: 20%;
@@ -223,9 +250,11 @@
 .text h1 {
     font-size: 25px;
 }
+
 .text h2 {
     font-size: 20px;
 }
+
 .text h3 {
     font-size: 15px;
 }
