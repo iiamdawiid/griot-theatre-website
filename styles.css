@@ -1,0 +1,199 @@
+#header {
+    background-color: black;
+    color: grey;
+    width: 100vw;
+    overflow: hidden;
+    margin-top: -8px;
+    margin-left: -8px;
+    padding-top: 10px;
+}
+
+#navbar {
+    background-color: black;
+    overflow: hidden;
+    float: right;
+    margin-right: 25%;
+}
+
+#navbar a {
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    padding-left: 50px;
+    text-decoration: none;
+    color: grey;
+}
+
+#navbar a:hover {
+    color: goldenrod
+}
+
+#company-name span {
+    float: left;
+    font-size: 40px;
+    margin-left: 5%;
+}
+
+
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(./images/theater-image-background.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: -8px;
+}
+
+.hero h1 {
+    font-size: 100px;
+    color: white;
+}
+
+
+.flexbox-container {
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox-item {
+    width: 60%;
+    margin: 10px;
+    border-bottom: 2px solid rgb(212, 210, 210);
+    background-color: white;
+    min-height: 300px;
+}
+
+.flexbox-item-1 {
+    min-height: 5px;
+    background-color: rgb(212, 210, 210);
+    border-style: outset;
+    border: 2px outset grey;
+}
+
+.flexbox-item-1 p {
+   
+    margin-left: 60px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+.flexbox-item-2 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.flexbox-item-3 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.flexbox-item-4 {
+    display: flex;
+    align-items: center;
+   
+}
+
+.flexbox-item-5 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.flexbox-container-footer {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100vw;
+    background-color: black;
+    margin-left: -8px;
+}
+
+.fb-item {
+    width:100%;
+    margin: 10px;
+    border: 3px solid white;
+    background-color: grey;
+}
+
+.fb-item2 h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 60px;
+}
+
+.fb-item2 ul {
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.fa-phone {
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.fa-envelope {
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.fa-location-dot {
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.fb-item2 li {
+    padding: 30px;
+}
+
+
+
+.image {
+    max-width: 20%;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+.text {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.read-more {
+    background-color: goldenrod;
+    color: white;
+    border: 1px black outset;
+    padding: 20px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 300px;
+}
+
+.text h1 {
+    font-size: 25px;
+}
+.text h2 {
+    font-size: 20px;
+}
+.text h3 {
+    font-size: 15px;
+}
