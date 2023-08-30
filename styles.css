@@ -1,6 +1,6 @@
 #header {
     background-color: black;
-    color: grey;
+    color: white;
     width: 100vw;
     overflow: hidden;
     margin-top: -8px;
@@ -22,7 +22,7 @@
     padding: 20px;
     padding-left: 50px;
     text-decoration: none;
-    color: grey;
+    color: white;
     font-family: 'Roboto', sans-serif;
 }
 
