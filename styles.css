@@ -129,8 +129,7 @@
 .fb-item {
     width:100%;
     margin: 10px;
-    border: 3px solid white;
-    background-color: grey;
+    
 }
 
 .fb-item2 h1{
@@ -144,6 +143,10 @@
     color: white;
     list-style-type: none;
     font-size: 20px;
+}
+
+.fb-item2 li {
+    padding: 30px;
 }
 
 .fa-phone {
@@ -161,10 +164,39 @@
     font-size: 30px;
 }
 
-.fb-item2 li {
+.fb-item3 h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 60px;
+}
+
+.fb-item3 ul {
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.fb-item3 li {
     padding: 30px;
 }
 
+.fb-item4 h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 60px;
+}
+
+.fb-item4 ul {
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.fb-item4 li {
+    padding: 30px;
+}
 
 
 .image {
